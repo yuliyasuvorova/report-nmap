@@ -1,0 +1,15 @@
+# Nmap 7.94SVN scan initiated Tue Dec  3 14:53:06 2024 as: nmap -O -oN osfing_win_report.txt 192.168.50.102
+Nmap scan report for 192.168.50.102
+Host is up (0.00080s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 08:00:27:5C:8D:1C (Oracle VirtualBox virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Microsoft Windows 2000 SP3/SP4 or Windows XP SP1/SP2 (97%), Microsoft Windows XP SP2 or SP3 (97%), Microsoft Windows 2000 SP0 - SP4 or Windows XP SP0 - SP1 (95%), Microsoft Windows 2000 SP4 or Windows XP SP1a (95%), Microsoft Windows Server 2003 SP1 or SP2 (95%), Microsoft Windows 2000 SP4 (93%), Microsoft Windows XP Professional SP2 or Windows Server 2003 (93%), Microsoft Windows XP SP1 (93%), Microsoft Windows XP SP3 (92%), Microsoft Windows 2000 Server SP3 or SP4 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Dec  3 14:53:27 2024 -- 1 IP address (1 host up) scanned in 21.60 seconds
